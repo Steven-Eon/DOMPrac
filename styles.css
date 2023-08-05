@@ -1,0 +1,6 @@
+.divBorder {
+    border-width: 1px;
+    background-color: pink;
+    border-color: black;
+    border-style: solid;
+}
