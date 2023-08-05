@@ -25,3 +25,13 @@ const htmlBegin = document.querySelector('body');
 htmlBegin.appendChild(firstElement);
 htmlBegin.appendChild(secondElement);
 htmlBegin.appendChild(thirdElement);
+
+const buttonElement = document.querySelector('button');
+
+
+
+buttonElement.addEventListener('click', (e) => {
+    console.log(e.target);
+    e.target.textContent = "Why :c";
+    alert("WHY DID YOU PRESS ME :c");
+});
